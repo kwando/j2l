@@ -415,7 +415,7 @@ fn qp_bool(query_params, name, default: Bool) {
 fn parse_bool(input: String) -> Result(Bool, Nil) {
   case input {
     "true" | "True" -> Ok(True)
-    "false" | "False"aaa -> Ok(False)
+    "false" | "False" -> Ok(False)
     _ -> Error(Nil)
   }
 }
