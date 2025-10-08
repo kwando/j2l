@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+body,
+html {
+    @apply bg-gray-900;
+}
+
+.gleam {
+    white-space: pre;
+    @apply text-xs/4;
+    color: #cad3f2;
+    color: #f6c983;
+    .hl-module {
+        color: #cad3f2;
+    }
+    .hl-function {
+        color: #cad3f2;
+    }
+
+    .hl-string {
+        color: #cae797;
+    }
+}
